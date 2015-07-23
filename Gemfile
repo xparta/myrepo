@@ -13,6 +13,7 @@ gem 'uglifier'
 gem 'coffee-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+gem 'bootstrap-sass'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
