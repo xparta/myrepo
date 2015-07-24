@@ -1,5 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <%= link_to "Home", root_path %>
 <%= link_to "About", about_path %>
-<h1>welcome to the Blog </h1>
-<p>Sign up here.</p>
+<%= link_to "contact_us", contacts_path %>
 
+<div class="jumbotron">
+	<h1>Welcome to The Blog </h1>
+	Click here to <%= link_to "Sign Up", "#", class: "btn btn-primary" %>
+</div
+
+<div class = "container">
+    <%=yield%>
+    </div
