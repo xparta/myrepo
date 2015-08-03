@@ -3,11 +3,19 @@
 <%= link_to "About", about_path %>
 <%= link_to "contact_us", contacts_path %>
 
-<div class="jumbotron">
-	<h1>Welcome to The Blog </h1>
-	Click here to <%= link_to "Sign Up", "#", class: "btn btn-primary" %>
-</div
-
 <div class = "container">
-    <%=yield%>
+    
+     <div class="jumbotron center">
+     <h1>Welcome to the Blog!</h1>
+     <p>
+       <%= link_to "Log in", "#", class: "btn btn-default btn-lg" %>
+       <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
+  </p>    
+</div> 
+    
+    
     </div
+    
+    
+    
+  
